@@ -240,9 +240,15 @@ namespace TicTacToe
                         PCTurn = false;
                     }
 
-                    if ((button7.Text == "O") && (button3.Text == "O") && (button5.Text == " ") && (PCTurn == true))
+                    if ((button1.Text == "O") && (button5.Text == "O") && (button9.Text == " ") && (PCTurn == true))
                     {
-                        button5.Text = "O";
+                        button9.Text = "O";
+                        PCTurn = false;
+                    }
+
+                    if ((button5.Text == "O") && (button9.Text == "O") && (button1.Text == " ") && (PCTurn == true))
+                    {
+                        button1.Text = "O";
                         PCTurn = false;
                     }
 
@@ -355,9 +361,15 @@ namespace TicTacToe
                         PCTurn = false;
                     }
 
-                    if ((button7.Text == "X") && (button3.Text == "X") && (button5.Text == " ") && (PCTurn == true))
+                    if ((button1.Text == "X") && (button5.Text == "X") && (button9.Text == " ") && (PCTurn == true))
                     {
-                        button5.Text = "O";
+                        button9.Text = "O";
+                        PCTurn = false;
+                    }
+
+                    if ((button5.Text == "X") && (button9.Text == "X") && (button1.Text == " ") && (PCTurn == true))
+                    {
+                        button1.Text = "O";
                         PCTurn = false;
                     }
 
